@@ -1,0 +1,35 @@
+/* Effet hover sur les cartes */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Jumbotron custom */
+.jumbotron {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Liens sans décoration */
+a.text-decoration-none {
+  color: inherit;
+}
+
+/* Espacement responsive */
+.g-4 {
+  gap: 1.5rem;
+}
+
+/* Footer sticky */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
